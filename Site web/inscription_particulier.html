@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8/">
+		<title> Ability Test </title>
+		<link rel="stylesheet" href="site_inscription.css" >
+		<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+		<title>Ability Test </title>
+	</head>
+
+	<body>
+
+ 		<!----------------------------------------- C'est un cadre pour la connexion et inscription------------------------------------------------------------- -->
+		<div class="bgimg">
+		   <div class="inscriptiondiv">
+		    <img src="https://cdn1.iconfinder.com/data/icons/flat-business-icons/128/user-128.png" id="profilepic">
+		    <h2>Inscription</h2>
+		    <form method="POST" action="inscription.php">
+		     <div>
+		      <input type="text" name="nom" class="inputboxcolonne1" placeholder="Nom" checked>
+		     </div>
+		     <br>
+		     <div>
+		      <input type="text" name="prenom" class="inputboxcolonne1" placeholder="Prenom" checked>
+		     </div>
+		     <br>
+		     <div>
+		      <input type="mail" name="email" class="inputboxcolonne1" placeholder="Adresse e-mail" checked>
+		     </div>
+		     <br>
+		     <div>
+		      <input type="mail" name="emailConfirmation" class="inputboxcolonne1" placeholder="Confirmation e-mail" checked>
+		     </div>
+		     <br>
+		     <div>
+		      <input type="text" name="tel" class="inputboxcolonne1" placeholder="Telephone">
+		     </div>
+		     <br>
+		     <div>
+		      <input type="password" name="motDePasse" class="inputboxcolonne1" placeholder="Mot de passe" checked>
+		     </div>
+		     <br>
+		     <div>
+		      <input type="password" name="motDePasseConfirmation" class="inputboxcolonne2" placeholder="Confirmation mot de passe" checked>
+		     </div>
+		     <br>
+		     <div>
+		      <select name="nationalite" id="country" class="inputboxcolonne3">
+			    <option value="">Nationalitee</option>
+			    <option value="France">France </option>
+				<option value="Maroc">Maroc </option>
+			</select>
+		     </div>
+		     <br>
+		     <div>
+		      <input type="text" name="pays" class="inputboxcolonne4" placeholder="Pays">
+		     </div>
+		     <br>
+		     <div>
+		      <select name="sexes" id="sexe" class="inputboxcolonne5">
+			    <option value="">Sexe</option>
+			    <option value="femme">Femme </option>
+				<option value="homme">Homme </option>
+			</select>
+		     </div>
+		     <div>
+		      <input type="text" name="adresse" class="inputboxcolonne6" placeholder="Adresse">
+		     </div>
+		     <div>
+		      <input type="text" name="codePostal" class="inputboxcolonne7" placeholder="Code postale">
+		     </div>
+			<div class="cguterms">
+				<input type="checkbox" id="terms" name="cgu">
+				<label for="terms"><a href="site-cgu.html">J'accepte les terms & conditions du site.</label></a>
+			</div>
+		     <div>
+		      <button type="submit" value="ok"> S inscrire </button>
+		     </div>
+		     <br>
+		    </form> <br>
+		  </div>
+		</div>
+	    <!----------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+	</body>
+</html>

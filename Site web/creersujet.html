@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)file:///C:/Users/mathi/Downloads/creersujetforum.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8/">
+		<title> Ability Test </title>
+		<link media="screen" rel="stylesheet" href="file:///C:/Users/mathi/Downloads/creersujetforum.css">
+		<link href="creersujetforum.css" rel="stylesheet">
+		<title>Ability Test </title>
+	<script>
+			function shownavebar() {
+				var sidebar=document.getElementById('test');
+				if(sidebar.style.display=='block') {
+					sidebar.style.display ='none';
+				} else {
+					sidebar.style.display ='block';
+				}
+				
+				console.log('test');
+			}
+
+		</script></head>
+	
+	
+
+	<body>
+
+ 		<!----------------------------------------- C'est un cadre pour le choix de rôles------------------------------------------------------------- -->
+		<div class="bgimg">
+			<div class="header">
+				<div class="elementsduheader">
+					<div class="contenudulogo" onclick="shownavebar()">
+						<h1>ABILITY <span>TEST</span></h1>
+					</div>
+					<div class="menu-deroulant-profile">
+						<img src="file:///C:/Users/mathi/Downloads/images/2.jpg" alt="User Image">
+						<ul>
+							<li><a href="file:///C:/Users/mathi/Downloads/deconnexion.php" class="highlight">Deconnexion</a></li>
+						</ul>
+					</div>
+					<div class="wrapper">
+					    <div class="sidebar" id='test'>
+					        <ul>
+								<li><a href="controle.html"><i class="fas fa-user"></i>Controle</a></li>
+								<li><a href="test1.html"><i class="fas fa-home"></i>Test</a></li>
+								<li><a href="lesresultats.html"><i class="fas fa-home"></i>Resultat</a></li>
+					            <li><a href="lesstatistiques.html"><i class="fas fa-home"></i>Statistique</a></li>
+					            <li><a href="site_profile.html"><i class="fas fa-user"></i>Profil</a></li>
+								<li><a href="forum.php"><i class="fas fa-user"></i>Forum</a></li>
+								<li><a href="faq.html"><i class="fas fa-user"></i>Faq</a></li>
+					        </ul> 
+					        <div class="social_media">
+					          <a href="#"><i class="fab fa-facebook-f"></i></a>
+					          <a href="#"><i class="fab fa-twitter"></i></a>
+					          <a href="#"><i class="fab fa-instagram"></i></a>
+					      </div>
+					    </div>
+			        </div>
+				</div>
+			</div>
+			<div class="creersujet">
+				<form method="post" action="action2.php">
+			     <label>Nom du probleme: </label>
+					<input type="text" name="nomProbleme"/>
+					<label>Pseudo: </label>
+					<input type="text" name="pseudo"/>
+				  <label>Sujet: </label>
+					<textarea class="sujet" name="content" rows="50" cols="50"></textarea>
+					<input type="submit" class="validersujet" value="Valider">
+				</form>
+			</div>
+		</div>
+	
+	    <!----------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+	
+</body></html>

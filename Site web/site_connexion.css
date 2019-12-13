@@ -1,0 +1,121 @@
+<!--  font-size: 
+xx-small : minuscule ;
+x-small : très petit ;
+small : petit ;
+medium : moyen ;
+large : grand ;
+x-large : très grand ;
+xx-large : euh… gigante 
+
+	font-weight
+bold : surligné
+italic : italique
+
+	texte-decoration
+line-through : barré.
+overline : ligne au-dessus.
+blink : clignotant. Ne fonctionne pas sur tous les navigateurs (Internet Explorer et Google Chrome, notamment).
+none : normal (par défaut).-->
+
+@font-face {
+		font-family: Arial;
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+	font-family: 'Source code Pro', Arial Narrow, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+.bgimg{
+	height: 100vh;
+    background-image: linear-gradient(27deg, #004E95 50%, #013A6B 50%);
+}
+.centerdiv{
+ width: 350px;
+ height: 400px;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ background-color: red;
+ transform: translate(-50%, -50%);
+ background-image: linear-gradient(27deg, #013A6B 50%, #004E95 50%);
+ box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+#profilepic{
+ width: 120px;
+ height: 120px;
+ border-radius: 50%;
+ position: relative;
+ top: -60px;
+ left: calc( (350px - 120px) / 2 )
+}
+
+h2{
+ text-align: center;
+ color: white;
+ text-transform: uppercase;
+ font-size: 2em;
+ word-spacing: 10px;
+ margin-top: -50px;
+ margin-bottom: 50px;
+ text-shadow: -2px 2px 1px #0A84C6;
+}
+
+.inputbox{
+ text-align: center;
+ width: calc(100% - 40px);
+ height: 30px;
+ display: block;
+ margin: auto;
+ padding: 0 10px;
+ box-sizing: border-box;
+}
+
+::placeholder{
+ letter-spacing: 2px;
+ color: black;
+}
+
+button{
+ width: calc(100% - 40px);
+ height: 30px;
+ display: block;
+ margin: auto;
+ color: white;
+ background-color: #0A84C6;
+ border: none;
+}
+.Compte-non-existant{
+ width: calc(100% - 40px);
+ line-height: 30px;
+ display: block;
+ margin: auto;
+ color: white;
+ text-transform: uppercase;
+ font-size: 0.8em;
+ text-align: right;
+ padding-right: 20px;
+ 
+}
+
+.Pass-oublie{
+ width: calc(100% - 40px);
+ line-height: 30px;
+ display: block;
+ margin: auto;
+ color: white;
+ text-transform: uppercase;
+ font-size: 0.8em;
+ text-align: right;
+ padding-right: 20px;
+
+}
+
+
+
